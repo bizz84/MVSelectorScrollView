@@ -1,10 +1,10 @@
-//
-//  ScrollerClipView.h
-//  Horizontal Scroll View Selector
-//
-//  Created by Andrea Bizzotto on 12/04/2013.
-//  Copyright (c) 2013 Andrea Bizzotto. All rights reserved.
-//
+/*
+ * This file is part of the MVSelectorScrollView package.
+ * (c) Andrea Bizzotto <bizz84@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE.md
+ * file that was distributed with this source code.
+ */
 
 #import <UIKit/UIKit.h>
 
