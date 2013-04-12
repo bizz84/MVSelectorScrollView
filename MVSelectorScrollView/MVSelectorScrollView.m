@@ -12,6 +12,7 @@
 
 @implementation MVSelectorScrollView {
     
+    NSInteger previousPage;
     NSMutableArray *subviews;
 }
 
@@ -84,8 +85,6 @@
 // Detecting page change:
 // http://stackoverflow.com/questions/5272228/detecting-uiscrollview-page-change
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    static NSInteger previousPage = 0;
-
     // Skip negative values as they may end up generating a positive index != 0
     if (scrollView.contentOffset.x < 0.0f)
         return;
