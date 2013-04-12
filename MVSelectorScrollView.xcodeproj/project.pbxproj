@@ -10,20 +10,20 @@
 		65036DEB171865E600DC527A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65036DEA171865E600DC527A /* UIKit.framework */; };
 		65036DED171865E600DC527A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65036DEC171865E600DC527A /* Foundation.framework */; };
 		65036DEF171865E600DC527A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65036DEE171865E600DC527A /* CoreGraphics.framework */; };
-		65036DF5171865E600DC527A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65036DF3171865E600DC527A /* InfoPlist.strings */; };
-		65036DF7171865E600DC527A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036DF6171865E600DC527A /* main.m */; };
-		65036DFB171865E600DC527A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036DFA171865E600DC527A /* AppDelegate.m */; };
-		65036DFD171865E600DC527A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036DFC171865E600DC527A /* Default.png */; };
-		65036DFF171865E600DC527A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036DFE171865E600DC527A /* Default@2x.png */; };
-		65036E01171865E600DC527A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E00171865E600DC527A /* Default-568h@2x.png */; };
-		65036E04171865E600DC527A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65036E02171865E600DC527A /* MainStoryboard.storyboard */; };
-		65036E07171865E600DC527A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E06171865E600DC527A /* ViewController.m */; };
 		65036E3C171872A100DC527A /* MVScrollerClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E34171872A100DC527A /* MVScrollerClipView.m */; };
 		65036E3D171872A100DC527A /* MVSelectorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E36171872A100DC527A /* MVSelectorContentView.m */; };
 		65036E3E171872A100DC527A /* MVSelectorScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E38171872A100DC527A /* MVSelectorScrollView.m */; };
 		65036E3F171872A100DC527A /* MVSelectorScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65036E39171872A100DC527A /* MVSelectorScrollView.xib */; };
 		65036E40171872A100DC527A /* scroller_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E3A171872A100DC527A /* scroller_bg@2x.png */; };
 		65036E41171872A100DC527A /* scroller_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E3B171872A100DC527A /* scroller_glass@2x.png */; };
+		65036E51171873AA00DC527A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E44171873AA00DC527A /* AppDelegate.m */; };
+		65036E52171873AA00DC527A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E45171873AA00DC527A /* Default-568h@2x.png */; };
+		65036E53171873AA00DC527A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E46171873AA00DC527A /* Default.png */; };
+		65036E54171873AA00DC527A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E47171873AA00DC527A /* Default@2x.png */; };
+		65036E55171873AA00DC527A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65036E48171873AA00DC527A /* InfoPlist.strings */; };
+		65036E56171873AA00DC527A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65036E4A171873AA00DC527A /* MainStoryboard.storyboard */; };
+		65036E57171873AA00DC527A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E4C171873AA00DC527A /* main.m */; };
+		65036E59171873AA00DC527A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E50171873AA00DC527A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,17 +31,6 @@
 		65036DEA171865E600DC527A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65036DEC171865E600DC527A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65036DEE171865E600DC527A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65036DF4171865E600DC527A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65036DF6171865E600DC527A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65036DF8171865E600DC527A /* MVSelectorScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVSelectorScrollView-Prefix.pch"; sourceTree = "<group>"; };
-		65036DF9171865E600DC527A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		65036DFA171865E600DC527A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65036DFC171865E600DC527A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		65036DFE171865E600DC527A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		65036E00171865E600DC527A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		65036E03171865E600DC527A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		65036E05171865E600DC527A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65036E06171865E600DC527A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65036E33171872A100DC527A /* MVScrollerClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVScrollerClipView.h; sourceTree = "<group>"; };
 		65036E34171872A100DC527A /* MVScrollerClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVScrollerClipView.m; sourceTree = "<group>"; };
 		65036E35171872A100DC527A /* MVSelectorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSelectorContentView.h; sourceTree = "<group>"; };
@@ -51,6 +40,18 @@
 		65036E39171872A100DC527A /* MVSelectorScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVSelectorScrollView.xib; sourceTree = "<group>"; };
 		65036E3A171872A100DC527A /* scroller_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_bg@2x.png"; sourceTree = "<group>"; };
 		65036E3B171872A100DC527A /* scroller_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_glass@2x.png"; sourceTree = "<group>"; };
+		65036E43171873AA00DC527A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65036E44171873AA00DC527A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65036E45171873AA00DC527A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65036E46171873AA00DC527A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		65036E47171873AA00DC527A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		65036E49171873AA00DC527A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65036E4B171873AA00DC527A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		65036E4C171873AA00DC527A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65036E4D171873AA00DC527A /* MVSelectorScrollView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MVSelectorScrollView-Info.plist"; sourceTree = "<group>"; };
+		65036E4E171873AA00DC527A /* MVSelectorScrollView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVSelectorScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		65036E4F171873AA00DC527A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65036E50171873AA00DC527A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				65036E32171872A100DC527A /* MVSelectorScrollView */,
-				65036DF0171865E600DC527A /* HorizontalScrollViewSelector */,
+				65036E42171873AA00DC527A /* MVSelectorScrollViewExample */,
 				65036DE9171865E600DC527A /* Frameworks */,
 				65036DE8171865E600DC527A /* Products */,
 			);
@@ -95,32 +96,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		65036DF0171865E600DC527A /* HorizontalScrollViewSelector */ = {
-			isa = PBXGroup;
-			children = (
-				65036DF9171865E600DC527A /* AppDelegate.h */,
-				65036DFA171865E600DC527A /* AppDelegate.m */,
-				65036E02171865E600DC527A /* MainStoryboard.storyboard */,
-				65036E05171865E600DC527A /* ViewController.h */,
-				65036E06171865E600DC527A /* ViewController.m */,
-				65036DF1171865E600DC527A /* Supporting Files */,
-			);
-			path = HorizontalScrollViewSelector;
-			sourceTree = "<group>";
-		};
-		65036DF1171865E600DC527A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				65036DF3171865E600DC527A /* InfoPlist.strings */,
-				65036DF6171865E600DC527A /* main.m */,
-				65036DF8171865E600DC527A /* MVSelectorScrollView-Prefix.pch */,
-				65036DFC171865E600DC527A /* Default.png */,
-				65036DFE171865E600DC527A /* Default@2x.png */,
-				65036E00171865E600DC527A /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		65036E32171872A100DC527A /* MVSelectorScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +110,33 @@
 				65036E3B171872A100DC527A /* scroller_glass@2x.png */,
 			);
 			path = MVSelectorScrollView;
+			sourceTree = "<group>";
+		};
+		65036E42171873AA00DC527A /* MVSelectorScrollViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				65036E5A171873B400DC527A /* Supporting Files */,
+				65036E43171873AA00DC527A /* AppDelegate.h */,
+				65036E44171873AA00DC527A /* AppDelegate.m */,
+				65036E4A171873AA00DC527A /* MainStoryboard.storyboard */,
+				65036E4F171873AA00DC527A /* ViewController.h */,
+				65036E50171873AA00DC527A /* ViewController.m */,
+			);
+			path = MVSelectorScrollViewExample;
+			sourceTree = SOURCE_ROOT;
+		};
+		65036E5A171873B400DC527A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65036E45171873AA00DC527A /* Default-568h@2x.png */,
+				65036E46171873AA00DC527A /* Default.png */,
+				65036E47171873AA00DC527A /* Default@2x.png */,
+				65036E48171873AA00DC527A /* InfoPlist.strings */,
+				65036E4C171873AA00DC527A /* main.m */,
+				65036E4D171873AA00DC527A /* MVSelectorScrollView-Info.plist */,
+				65036E4E171873AA00DC527A /* MVSelectorScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,14 +190,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65036DF5171865E600DC527A /* InfoPlist.strings in Resources */,
-				65036DFD171865E600DC527A /* Default.png in Resources */,
-				65036DFF171865E600DC527A /* Default@2x.png in Resources */,
-				65036E01171865E600DC527A /* Default-568h@2x.png in Resources */,
-				65036E04171865E600DC527A /* MainStoryboard.storyboard in Resources */,
 				65036E3F171872A100DC527A /* MVSelectorScrollView.xib in Resources */,
 				65036E40171872A100DC527A /* scroller_bg@2x.png in Resources */,
 				65036E41171872A100DC527A /* scroller_glass@2x.png in Resources */,
+				65036E52171873AA00DC527A /* Default-568h@2x.png in Resources */,
+				65036E53171873AA00DC527A /* Default.png in Resources */,
+				65036E54171873AA00DC527A /* Default@2x.png in Resources */,
+				65036E55171873AA00DC527A /* InfoPlist.strings in Resources */,
+				65036E56171873AA00DC527A /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,30 +208,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65036DF7171865E600DC527A /* main.m in Sources */,
-				65036DFB171865E600DC527A /* AppDelegate.m in Sources */,
-				65036E07171865E600DC527A /* ViewController.m in Sources */,
 				65036E3C171872A100DC527A /* MVScrollerClipView.m in Sources */,
 				65036E3D171872A100DC527A /* MVSelectorContentView.m in Sources */,
 				65036E3E171872A100DC527A /* MVSelectorScrollView.m in Sources */,
+				65036E51171873AA00DC527A /* AppDelegate.m in Sources */,
+				65036E57171873AA00DC527A /* main.m in Sources */,
+				65036E59171873AA00DC527A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65036DF3171865E600DC527A /* InfoPlist.strings */ = {
+		65036E48171873AA00DC527A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65036DF4171865E600DC527A /* en */,
+				65036E49171873AA00DC527A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		65036E02171865E600DC527A /* MainStoryboard.storyboard */ = {
+		65036E4A171873AA00DC527A /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65036E03171865E600DC527A /* en */,
+				65036E4B171873AA00DC527A /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -297,8 +299,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalScrollViewSelector/MVSelectorScrollView-Prefix.pch";
-				INFOPLIST_FILE = "HorizontalScrollViewSelector/MVSelectorScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "MVSelectorScrollViewExample/MVSelectorScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MVSelectorScrollViewExample/MVSelectorScrollView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = MVSelectorScrollView;
 				WRAPPER_EXTENSION = app;
@@ -309,8 +311,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HorizontalScrollViewSelector/MVSelectorScrollView-Prefix.pch";
-				INFOPLIST_FILE = "HorizontalScrollViewSelector/MVSelectorScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "MVSelectorScrollViewExample/MVSelectorScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MVSelectorScrollViewExample/MVSelectorScrollView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = MVSelectorScrollView;
 				WRAPPER_EXTENSION = app;
