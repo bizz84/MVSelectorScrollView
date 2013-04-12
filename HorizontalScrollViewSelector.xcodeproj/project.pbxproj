@@ -18,6 +18,12 @@
 		65036E01171865E600DC527A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E00171865E600DC527A /* Default-568h@2x.png */; };
 		65036E04171865E600DC527A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65036E02171865E600DC527A /* MainStoryboard.storyboard */; };
 		65036E07171865E600DC527A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E06171865E600DC527A /* ViewController.m */; };
+		65036E191718661C00DC527A /* scroller_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E0E1718661C00DC527A /* scroller_bg@2x.png */; };
+		65036E1A1718661C00DC527A /* scroller_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65036E0F1718661C00DC527A /* scroller_glass@2x.png */; };
+		65036E1B1718661C00DC527A /* MVScrollerClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E111718661C00DC527A /* MVScrollerClipView.m */; };
+		65036E1D1718661C00DC527A /* MVSelectorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E151718661C00DC527A /* MVSelectorContentView.m */; };
+		65036E1E1718661C00DC527A /* MVSelectorScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E171718661C00DC527A /* MVSelectorScrollView.m */; };
+		65036E1F1718661C00DC527A /* MVSelectorScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65036E181718661C00DC527A /* MVSelectorScrollView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,15 @@
 		65036E03171865E600DC527A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		65036E05171865E600DC527A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		65036E06171865E600DC527A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65036E0E1718661C00DC527A /* scroller_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_bg@2x.png"; sourceTree = "<group>"; };
+		65036E0F1718661C00DC527A /* scroller_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_glass@2x.png"; sourceTree = "<group>"; };
+		65036E101718661C00DC527A /* MVScrollerClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVScrollerClipView.h; sourceTree = "<group>"; };
+		65036E111718661C00DC527A /* MVScrollerClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVScrollerClipView.m; sourceTree = "<group>"; };
+		65036E141718661C00DC527A /* MVSelectorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSelectorContentView.h; sourceTree = "<group>"; };
+		65036E151718661C00DC527A /* MVSelectorContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSelectorContentView.m; sourceTree = "<group>"; };
+		65036E161718661C00DC527A /* MVSelectorScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSelectorScrollView.h; sourceTree = "<group>"; };
+		65036E171718661C00DC527A /* MVSelectorScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSelectorScrollView.m; sourceTree = "<group>"; };
+		65036E181718661C00DC527A /* MVSelectorScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVSelectorScrollView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,7 @@
 		65036DF0171865E600DC527A /* HorizontalScrollViewSelector */ = {
 			isa = PBXGroup;
 			children = (
+				65036E0D1718661C00DC527A /* ScrollerOptionSelector */,
 				65036DF9171865E600DC527A /* AppDelegate.h */,
 				65036DFA171865E600DC527A /* AppDelegate.m */,
 				65036E02171865E600DC527A /* MainStoryboard.storyboard */,
@@ -105,6 +121,22 @@
 				65036E00171865E600DC527A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65036E0D1718661C00DC527A /* ScrollerOptionSelector */ = {
+			isa = PBXGroup;
+			children = (
+				65036E0E1718661C00DC527A /* scroller_bg@2x.png */,
+				65036E0F1718661C00DC527A /* scroller_glass@2x.png */,
+				65036E101718661C00DC527A /* MVScrollerClipView.h */,
+				65036E111718661C00DC527A /* MVScrollerClipView.m */,
+				65036E141718661C00DC527A /* MVSelectorContentView.h */,
+				65036E151718661C00DC527A /* MVSelectorContentView.m */,
+				65036E161718661C00DC527A /* MVSelectorScrollView.h */,
+				65036E171718661C00DC527A /* MVSelectorScrollView.m */,
+				65036E181718661C00DC527A /* MVSelectorScrollView.xib */,
+			);
+			path = ScrollerOptionSelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +195,9 @@
 				65036DFF171865E600DC527A /* Default@2x.png in Resources */,
 				65036E01171865E600DC527A /* Default-568h@2x.png in Resources */,
 				65036E04171865E600DC527A /* MainStoryboard.storyboard in Resources */,
+				65036E191718661C00DC527A /* scroller_bg@2x.png in Resources */,
+				65036E1A1718661C00DC527A /* scroller_glass@2x.png in Resources */,
+				65036E1F1718661C00DC527A /* MVSelectorScrollView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +211,9 @@
 				65036DF7171865E600DC527A /* main.m in Sources */,
 				65036DFB171865E600DC527A /* AppDelegate.m in Sources */,
 				65036E07171865E600DC527A /* ViewController.m in Sources */,
+				65036E1B1718661C00DC527A /* MVScrollerClipView.m in Sources */,
+				65036E1D1718661C00DC527A /* MVSelectorContentView.m in Sources */,
+				65036E1E1718661C00DC527A /* MVSelectorScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MVSelectorScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MVSelectorScrollViewDelegate>
+
+@property IBOutlet MVSelectorScrollView *scrollView1;
+@property IBOutlet UILabel *indicator1;
+
+@property IBOutlet MVSelectorScrollView *scrollView2;
+@property IBOutlet UILabel *indicator2;
 
 @end
