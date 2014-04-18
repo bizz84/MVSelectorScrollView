@@ -16,7 +16,7 @@
  * Method called when a new page is selected
  * @param page index of selected page
  */
-- (void)scrollView:(MVSelectorScrollView *)scrollView pageSelected:(int)pageSelected;
+- (void)scrollView:(MVSelectorScrollView *)scrollView pageSelected:(NSInteger)pageSelected;
 @end
 
 /**
@@ -38,12 +38,12 @@
 /**
  * Currently selected index
  */
-@property (nonatomic) int selectedIndex;
+@property (nonatomic) NSInteger selectedIndex;
 
 /**
  * Method to select index with optional scroll view animation
  */
-- (void)setSelectedIndex:(int)selectedIndex animated:(BOOL)animated;
+- (void)setSelectedIndex:(NSInteger)selectedIndex animated:(BOOL)animated;
 
 /**
  * Whether the delegate method is called while the view is still scrolling. Fires multiple delegate calls each time a page boundary is crossed.

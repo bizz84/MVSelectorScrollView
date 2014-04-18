@@ -121,12 +121,12 @@
 
 #pragma mark - setters
 
-- (void)setSelectedIndex:(int)selectedIndex {
+- (void)setSelectedIndex:(NSInteger)selectedIndex {
     
     [self setSelectedIndex:selectedIndex animated:NO];
 }
 
-- (void)setSelectedIndex:(int)selectedIndex animated:(BOOL)animated {
+- (void)setSelectedIndex:(NSInteger)selectedIndex animated:(BOOL)animated {
     
     if (_selectedIndex != selectedIndex) {
 
@@ -160,7 +160,7 @@
 }
 
 // Update highlighting
-- (void)changeHighlightFrom:(int)oldIndex to:(int)newIndex {
+- (void)changeHighlightFrom:(NSInteger)oldIndex to:(NSInteger)newIndex {
     
     if (oldIndex != newIndex) {
         MVSelectorContentView *subview = [subviews objectAtIndex:newIndex];

@@ -30,7 +30,7 @@
     self.label.text = text;
     self.label.font = [UIFont boldSystemFontOfSize:12.0f];
     self.label.backgroundColor = [UIColor clearColor];
-    self.label.textAlignment = UITextAlignmentCenter;
+    self.label.textAlignment = NSTextAlignmentCenter;
     self.label.textColor = [UIColor colorWithWhite:0.5f alpha:1.0f];
     
     self.label.layer.shadowOffset = CGSizeMake(0.0f, 2.5f);
