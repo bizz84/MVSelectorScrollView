@@ -42,7 +42,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)scrollView:(MVSelectorScrollView *)scrollView pageSelected:(int)pageSelected {
+- (void)scrollView:(MVSelectorScrollView *)scrollView pageSelected:(NSInteger)pageSelected {
     
     //NSLog(@"%s scroll view %d, selected page: %d", __func__, scrollView.tag, pageSelected);
     
