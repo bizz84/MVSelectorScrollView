@@ -29,6 +29,11 @@
     if ((self = [super initWithCoder:aDecoder])){
         NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"MVSelectorScrollView" owner:self options:nil];
         UIView *view = [views objectAtIndex:0];
+
+        CGRect frame = view.frame;
+        frame.size = self.frame.size;
+        view.frame = frame;
+        
         [self addSubview:view];
     }
     return self;
