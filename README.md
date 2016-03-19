@@ -1,7 +1,7 @@
 MVSelectorScrollView
 =======================================================
 
-### This project has now been replaced by [MVHorizontalPicker](https://github.com/bizz84/MVHorizontalPicker)
+### This project has been replaced by [MVHorizontalPicker](https://github.com/bizz84/MVHorizontalPicker)
 
 This project includes a simple Cocoa control that can be used as an alternative for the standard UISegmentedControl provided by UIKit.
 
