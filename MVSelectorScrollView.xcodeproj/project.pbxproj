@@ -24,6 +24,7 @@
 		65036E56171873AA00DC527A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65036E4A171873AA00DC527A /* MainStoryboard.storyboard */; };
 		65036E57171873AA00DC527A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E4C171873AA00DC527A /* main.m */; };
 		65036E59171873AA00DC527A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65036E50171873AA00DC527A /* ViewController.m */; };
+		FBBD8DB4197AC9B7002C627A /* scroller_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD8DB3197AC9B7002C627A /* scroller_arrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		65036E4E171873AA00DC527A /* MVSelectorScrollView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVSelectorScrollView-Prefix.pch"; sourceTree = "<group>"; };
 		65036E4F171873AA00DC527A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		65036E50171873AA00DC527A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBBD8DB3197AC9B7002C627A /* scroller_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				65036E39171872A100DC527A /* MVSelectorScrollView.xib */,
 				65036E3A171872A100DC527A /* scroller_bg@2x.png */,
 				65036E3B171872A100DC527A /* scroller_glass@2x.png */,
+				FBBD8DB3197AC9B7002C627A /* scroller_arrow@2x.png */,
 			);
 			path = MVSelectorScrollView;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65036E3F171872A100DC527A /* MVSelectorScrollView.xib in Resources */,
+				FBBD8DB4197AC9B7002C627A /* scroller_arrow@2x.png in Resources */,
 				65036E40171872A100DC527A /* scroller_bg@2x.png in Resources */,
 				65036E41171872A100DC527A /* scroller_glass@2x.png in Resources */,
 				65036E52171873AA00DC527A /* Default-568h@2x.png in Resources */,
@@ -338,6 +342,7 @@
 				65036E0C171865E600DC527A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
